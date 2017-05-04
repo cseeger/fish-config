@@ -6,3 +6,5 @@ begin
       source $AUTOJUMP_PATH
   end
 end
+
+status --is-interactive; and source (rbenv init -|psub)
